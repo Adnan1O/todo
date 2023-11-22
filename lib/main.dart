@@ -1,6 +1,5 @@
 import 'dart:html';
 import 'package:flutter/material.dart';
-
 List<String> tasks = ['task one', 'task two', "task three",];
 
 void main() {
