@@ -70,6 +70,7 @@ Row(
     ),
   ],
 ),
+
 SizedBox(height: 20), 
 // Other widgets can be added after the space
 Expanded(
