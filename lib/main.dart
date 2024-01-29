@@ -1,7 +1,5 @@
 import 'dart:html';
-
 import 'package:flutter/material.dart';
-
 List<String> tasks = ['task one', 'task two', "task three",];
 
 void main() {
@@ -22,7 +20,6 @@ class MyApp extends StatelessWidget {
 
 class RootPage extends StatefulWidget {
   const RootPage({super.key});
-
   @override
   State<RootPage> createState() => _RootPageState();
 }
@@ -94,8 +91,7 @@ Expanded(
     ]
     )
         );
-
-  }))
+ }))
 ],
 ),
 ),
