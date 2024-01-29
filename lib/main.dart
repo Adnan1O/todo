@@ -57,12 +57,13 @@ Row(
           hintText: 'Enter a task...',
           contentPadding: EdgeInsets.all(10),
         ),
-          onChanged: (value){
-              setState(() {
-                email = value;
-              });
+          // onChanged: (){
+              // setState(() {
+              //   email = value;
+              // });
       ),
     ),
+
     SizedBox(width: 10),
     ElevatedButton(
       onPressed: () {
